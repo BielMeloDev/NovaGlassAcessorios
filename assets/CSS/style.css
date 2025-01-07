@@ -9,10 +9,11 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    scroll-behavior: smooth;
 }
 
 nav {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 .menu {
@@ -20,12 +21,12 @@ nav {
     justify-content: space-around;
     /* background-color: rgb(32, 32, 32); */
     background-image: linear-gradient( to bottom, rgb(32, 32, 32), rgb(44, 44, 44));
-    height: 120px;
+    height: 80px;
 }
 
 .logo img {
-    margin-top: 22px;
-    max-width: 200px;
+    margin-top: 20px;
+    max-width: 125px;
     /* max-height: 130px; */
 }
 
@@ -33,8 +34,8 @@ nav {
 } */
 
 .itens {
-    gap: 40px;
-    margin: 50px;
+    gap: 20px;
+    margin: 30px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -48,7 +49,7 @@ nav {
     padding: 10px;
     text-decoration: none;
     color: #c0c0c0;
-    font-size: 20px;
+    font-size: 15px;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
@@ -59,22 +60,33 @@ nav {
 
 .parallax-box {
     width: 100%;
-    height: 980px;
-    background-image: url("/assets/imagens/Fundo-Cortado.jpg");
+    height: 649px;
+    background-image: url("/assets/imagens/Fundo_Edit.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end
 }
 
 .parallax-box .bg-box {
-    background-color: #2f2f2f;
+    background-image: linear-gradient( to top, rgb(32, 32, 32), rgb(44, 44, 44));
+    /* background-color: #2f2f2f; */
     position: absolute;
-    margin: 270px 0 0 0;
-    opacity: 1;
-    border-radius: 15px;
-    padding: 80px;
+    margin: 0;
+    opacity: 0.8;
+    border-radius: 0 0 0 15px;
+    padding: 40px;
+}
+
+.bg-box .big-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.big-logo {
+    max-width: 250px;
+    padding-left: 40px;
 }
 
 .parallax-box #text-box {
@@ -96,19 +108,54 @@ nav {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 50px;
     font-style: normal;
     opacity: 1;
     /* padding-top: 300px; */
 }
 
 .parallax-box #subtext {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .parallax-box .bg-box .both-text {
     display: flex;
     justify-content: center;
+    color: #e11d1d;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.both-text span {
+    color: rgb(196, 196, 196);
+    font-weight: 500;
+}   
+
+.quem-box {
+    background-image: linear-gradient(120deg, rgb(23, 23, 23), rgb(48, 48, 48));
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+}
+
+.quem-box img {
+    max-width: 500px;
+    margin: ;
+}
+.text-box {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #dadada;
-    font-size: 25px;
+
+    margin: 80px;
+    align-items: center;
+}
+
+.text-box p {
+    text-align: center;
+}
+
+.img-box {
 }
