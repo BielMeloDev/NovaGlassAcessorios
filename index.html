@@ -4,59 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/CSS/style.css" />
+    <script defer src="assets/JS/app.js"></script>
     <title>Nova Glass Acessórios</title>
+    <!-- Desenvolvido por Gabriel de Melo Braz -->
+    <!-- @kd.obiel -->
+    <!-- @gabriel.melo.braz -->
   </head>
   <body>
     <header>
-        <nav>
+        <nav class="nav">
             <div class="menu">
                 <div class="logo">
                     <a href="index.html"><img src="assets/imagens/logotipo_novaglass_page-0002-removebg-preview.png" alt=""></a>
                 </div>
+                <button class="hamburger"></button>
                 <ul class="itens">
                     <li><a href="#quem-id">Quem Somos</a></li>
-                    <li><a href="/">Serviços</a></li>
-                    <li><a href="/">Contato</a></li>
-                    <li><a href="/">Equipe</a></li>
+                    <li><a href="#serv-tit">Serviços</a></li>
+                    <li><a href="https://wa.me/5585996236369" target="_blank">Contato</a></li>
+                    <!-- <li><a href="/">Equipe</a></li> -->
                 </ul>
             </div>
         </nav>
+          <a href="https://wa.me/5585996236369" target="_blank">
+            <svg class="whats-logo" height="93px" width="93px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="0.00512" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="5.12"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0 S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"></path> <path style="fill:#55CD6C;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662 c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234 c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"></path> <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297 c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048 c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359 c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248 c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062 l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"></path> </g></svg>
+          </a>
     </header>
     <main>
       <!-- Imagem com efeito parallax -->
-      <div class="parallax-box">
-        <div class="bg-box">
-          <!-- <div class="text-box">
-            <h1 class="both-text" id="text-red">NOVA GLASS </h1>
-          </div>
-          <div class="sub-box">
-            <h2 class="both-text" id="subtext">A c e s s ó r i o s</h2>
-          </div> <br> -->
-          <img class="big-logo" src="assets/imagens/logotipo_novaglass_page-0002-removebg-preview.png" alt=""> <br>
-          <div class="sub-text">
-            <h3 class="both-text"> Soluções <span> |   Automotivas | </span> onde você estiver</h3>
+        <div class="parallax-box">
+          <div class="bg-box">
+            <!-- <div class="text-box">
+              <h1 class="both-text" id="text-red">NOVA GLASS </h1>
+            </div>
+            <div class="sub-box">
+              <h2 class="both-text" id="subtext">A c e s s ó r i o s</h2>
+            </div> <br> -->
+            <!-- <img class="big-logo" src="assets/imagens/logotipo_novaglass_page-0002-removebg-preview.png" alt=""> <br> -->
+            <div class="sub-text">
+              <h3 class="titulo-banner">VOCÊ <span class="nao-banner">NÃO</span> PRECISA <span class="sair-banner">SAIR DE CASA</span></h3>
+              <p class="texto-banner">Cuidamos do seu carro onde for mais prático para você</p>
+            </div>
           </div>
         </div>
-      </div>
 
 <!-- Quem Somos -->
       
     <div class="quem-box" id="quem-id">
       <section class="text-box">
-        <h2>Que somos?</h2>
-        <p>A Nova Glass Acessórios é uma empresa com o foco em serviços automotivos com a melhor qualidade possível, tendo sempre como prioridade, a satisfação do cliente.</p>
+        <h2 class="titulo-padrao"><span class="texto-cor">Quem</span>Somos?</h2> <br>
+        <p  class="texto-padrao">A Nova Glass Acessórios é uma empresa com o foco em serviços automotivos com a melhor qualidade possível, tendo sempre como prioridade, a satisfação do cliente.</p>
+        <img src="assets/imagens/ferramenta-50px.png" alt="" class="icone">
       </section>
 
       <div class="img-box">
-        <img src="assets/imagens/quem-carro.jpg" alt="">
+        <img src="assets/imagens/Fundo_Edit.jpg" alt="" class="homem-carro">
       </div>
     </div>
     
     <!-- Serviços -->
+      <h2 class="titulo-padrao centralize" id="serv-tit"><span class="texto-cor">Nossos </span> Serviços</h2> <br>
      <div class="servicos-box">
 
+      <div class="servicos">
+        <ul class="servic-list">
+          <li class="itens-list"><span class="red-v">&#x2713;</span> Acessórios Automotivos</li> <br>
+          <li class="itens-list"><span class="red-v">&#x2713;</span> Recuperação de para-brisas</li> <br>
+          <li class="itens-list"><span class="red-v">&#x2713;</span> Troca de borrachas</li> <br>
+          <li class="itens-list"><span class="red-v">&#x2713;</span> Troca de palhetas</li> <br>
+          <li class="itens-list"><span class="red-v">&#x2713;</span> Instalação e remoção de para-brisas</li> <br>
+          <li class="itens-list"><span class="red-v">&#x2713;</span> Vidros e Reparos</li> <br>
+        </ul>
+      </div>
+      
      </div>
-
     </main>
+    <footer>
+      <div class="bg-footer">
+        <h1 class="titulo-footer"><em>Faça já o seu Orçamento!</em></h1>
+        
+        <div class="contato">
+          
+          <a class="link-footer a-config" href="https://wa.me/5585996236369" target="_blank"><svg class="whats-small" height="93px" width="93px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="0.00512" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="5.12"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0 S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"></path> <path style="fill:#55CD6C;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662 c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234 c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"></path> <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297 c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048 c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359 c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248 c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062 l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"></path> </g></svg> (85) 9623-6369</a>
+        </div>
+        <div class="contato">
+          
+          <a class="link-footer a-config" id="insta-link" href="https://www.instagram.com/novaglassacessorios/" target="_blank"><svg class="whats-small" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+            </svg> novaglassacessorios</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html> 
